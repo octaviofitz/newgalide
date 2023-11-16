@@ -1,0 +1,61 @@
+.servicios{
+    background-color: #004678;
+    padding: 2rem 0;
+    position: relative;
+}
+      
+.servicios::before {   
+    content: "";
+    width: 100%;
+    height: 170px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 94vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 127' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 21L33 18C82 12 133 14 200 28C267 42 333 63 400 67C467 70 533 56 600 38C667 21 733 0 800 0C867 0 933 21 1000 28C1067 35 1133 28 1167 24L1200 21V127H1167C1133 127 1067 127 1000 127C933 127 867 127 800 127C733 127 667 127 600 127C533 127 467 127 400 127C333 127 267 127 200 127C133 127 67 127 33 127H0V22.332Z' fill='%23ffffff'/></svg>")!important;  
+}
+
+.servicios .img{
+    width: 20vw;
+    display: flex;
+    margin: 1rem auto;
+    align-items: center;
+}
+
+.servicios .titulo{
+    text-align: center;
+    padding: 0rem 2.5rem;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.servicios .titulo .mark{
+    background-color: #a032a0;
+    font-weight: 900;
+    padding: 0.1em 0.2em;
+    color: #fff;
+    font-style: normal;
+}
+
+.servicios .card{
+    display: flex;
+    border-radius: 45px;
+    padding: 22px 32px;
+    max-width: 286px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.servicios .card .titulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    font-style: normal;
+}
+
+.servicios .texto{
+    font-size: 14px;
+}

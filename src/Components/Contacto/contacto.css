@@ -1,0 +1,20 @@
+.contacto{
+    background-color: #234eaf;
+    margin-top: 3rem;
+    padding: 2.5rem 0;
+}
+
+.contacto .titulo{
+    color: #fff;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 900;
+    padding: 0.2em 0.2em;
+    padding-left: 1rem;
+    line-height: 1.5em;
+}
+
+.contacto .titulo .mark{
+    background: #004678;
+    color: #fff;
+}

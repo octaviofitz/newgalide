@@ -1,0 +1,58 @@
+.header{
+  width: 100%;
+  background-image: radial-gradient(rgb(132, 0, 255), purple)!important;
+  height: 70vh;
+  background-color: #7b20b2!important;
+  position: relative;
+}
+
+.header::before {   
+  content: "";
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 94vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 127' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 21L33 18C82 12 133 14 200 28C267 42 333 63 400 67C467 70 533 56 600 38C667 21 733 0 800 0C867 0 933 21 1000 28C1067 35 1133 28 1167 24L1200 21V127H1167C1133 127 1067 127 1000 127C933 127 867 127 800 127C733 127 667 127 600 127C533 127 467 127 400 127C333 127 267 127 200 127C133 127 67 127 33 127H0V22.332Z' fill='%23ffffff'/></svg>")!important;
+}
+
+.header .navBar .brand{
+  color: #fff;
+  padding: 2rem;
+  font-weight: 700;
+}
+
+.header .titulo{
+  text-align: center;
+  padding: 0rem 1rem;
+  color: white;
+  font-size: 8vw;
+  font-weight: 300;
+}
+
+.header .strong{
+  font-weight: 900;
+}
+
+.header .galaxy{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+   }
+   
+   .header .galaxy {
+    animation: rotate 400s linear infinite;
+   }

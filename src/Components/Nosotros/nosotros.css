@@ -1,0 +1,25 @@
+.nosotros {
+    padding: 19vh 10vw 6vh;
+}
+
+.nosotros .titulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.nosotros .titulo .mark{
+    background-color: #004678;
+    font-weight: 900;
+    padding: 0.1em 0.2em;
+    color: #fff;
+    font-style: normal;
+}
+
+.nosotros .texto{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.5px;
+    text-align: center;
+    padding-top: 1rem;
+}

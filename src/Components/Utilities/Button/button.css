@@ -1,0 +1,17 @@
+.buttonContainer .button{
+    background-color: #8e388a;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+    padding: 13px 19.5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
