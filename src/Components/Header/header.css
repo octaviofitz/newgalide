@@ -4,6 +4,7 @@
   height: 450px;
   background-color: #7b20b2!important;
   position: relative;
+  margin-bottom: 4.5rem;
 }
 
 .header::before {   
