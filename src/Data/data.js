@@ -1,6 +1,6 @@
 const servicios = [
     {id: 1,
-    titulo: 'Protección de Objetos',
+    titulo: 'Protección de Marca',
     img: '/img/Servicios/protect.png',
     texto: 'Nuestro servicio integral de protección de marca, garantiza la reputación, imagen y control de precios de nuestros valiosos clientes. Preservando la identidad y el prestigio de una marca, desarrollando estrategias sólidas y eficientes para enfrentar los desafíos del mercado actual.'
     },
