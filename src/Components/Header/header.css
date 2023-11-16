@@ -1,7 +1,7 @@
 .header{
   width: 100%;
   background-image: radial-gradient(rgb(132, 0, 255), purple)!important;
-  height: 70vh;
+  height: 450px;
   background-color: #7b20b2!important;
   position: relative;
 }
@@ -29,7 +29,7 @@
   text-align: center;
   padding: 0rem 1rem;
   color: white;
-  font-size: 8vw;
+  font-size: 32px;
   font-weight: 300;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .header .galaxy{
-    width: 65vw;
+    width: 235px;
     display: flex;
     align-items: center;
     margin: auto;

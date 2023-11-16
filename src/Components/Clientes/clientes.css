@@ -1,5 +1,6 @@
 .clientes{
     margin-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .clientes .titulo{
@@ -17,8 +18,8 @@
 }
 
 .clientes-container {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    margin: auto;   
   }
   
   .rounded-image {
