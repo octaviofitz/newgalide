@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css'
 
 import Container from 'react-bootstrap/Container';
@@ -8,11 +8,33 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 function Header() {
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
     return (
         <section className='header'>
+<nav className="navbar">
+      <div className="logo">Galidé</div>
+      <div className="menu-icon" onClick={toggleMenu}>
+        ☰
+      </div>
+      <ul className={`menu ${showMenu ? 'show' : ''}`}>
+        <li className="menu-item">Nosotros</li>
+        <li className="menu-item">Servicios</li>
+        <li className="menu-item">Clientes</li>
+        <li className="menu-item">Contacto</li>
+      </ul>
+    </nav>
+  
+
+
 
             {/* Navbar */}
-            <Navbar expand="lg" className="navBar" variant='dark'>
+          {/*   <Navbar expand="lg" className="navBar" variant='dark'>
       <Container fluid>
         <Navbar.Brand href="#" className='brand'>GALIDÉ</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className='lines'/>
@@ -41,7 +63,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
+ */}
 
 
             <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>

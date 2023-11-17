@@ -29,6 +29,7 @@
 .contacto .Formulario .Input{
     margin: 0.5rem 0;
     background-color: #fff;
+    color: red;
 }
 
 .contacto .boton{

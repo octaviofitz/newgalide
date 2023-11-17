@@ -5,8 +5,7 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
 import Box from '@mui/material/Box';
-/* import Button from '@mui/material/Button';
- */import TextField from '@mui/material/TextField';
+import TextField from '@mui/material/TextField';
 
 import './contacto.css';
 
@@ -42,11 +41,11 @@ function Contacto() {
     const re= /\S+@\S+\.\S+/ // eslint-disable-line
     
     
-    //validación teléfono
+/*     //validación teléfono
     const [telefono, setTelefono]= useState('')
     const [leyendaTelefono, setLeyendaTelefono]= useState('')
     const [errorTelefono, setErrorTelefono] = useState(false)
-    const [botonTelefono, setBotonTelefono]= useState(false)
+    const [botonTelefono, setBotonTelefono]= useState(false) */
     
     //validación mensaje
     const [mensaje, setMensaje]= useState('')
@@ -108,7 +107,7 @@ function Contacto() {
         helperText={leyendaMail}
         />
 
-        <TextField id="standard-basic" name='telefono' label="Teléfono" variant="outlined" className='Input' type='number' onChange={(e) => {
+        {/* <TextField id="standard-basic" name='telefono' label="Teléfono" variant="outlined" className='Input' type='number' onChange={(e) => {
           setTelefono(e.target.value);
           if(telefono.length<6 || telefono.length>25){
             setErrorTelefono(true);
@@ -120,7 +119,7 @@ function Contacto() {
             }
         }}
         error={errorTelefono} 
-        helperText={leyendaTelefono}/>
+        helperText={leyendaTelefono}/> */}
 
 
         <TextField
@@ -146,14 +145,11 @@ function Contacto() {
         />
 
 {
-         botonName===true && botonTelefono===true && botonMail===true && botonMensaje===true
+         botonName===true &&  botonMail===true && botonMensaje===true
             ? <button className='button'
             type='submit' onClick={()=>mostrarAlerta()}>
                     Enviar
-                </button>
-
-               
-               
+                </button>       
                :
                <button className='button'
            type='submit' disabled>

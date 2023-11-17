@@ -24,7 +24,81 @@
   color: #fff;
   padding: 2rem;
   font-weight: 700;
+} 
+
+/* Navbar.css */
+
+
+
+
+.navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0rem;
 }
+
+.logo {
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 700;
+  padding: 1.5rem;
+  text-transform: uppercase;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 1.5em;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 700;
+  margin: 1.5rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-100%, -50%); /* Centra el menú */
+  background-color: #fff;
+  width: 90vw;
+  flex-direction: column;
+  z-index: 2;
+  border: 1px solid #fff; /* Borde principal blanco */
+  box-shadow: 0 0 10px #004678;
+  transition: transform 0.5s ease-in-out; /* Agrega una transición */
+}
+
+.menu.show {
+  visibility: visible;
+ border-radius: 15px;
+  transform: translate(-50%, -50%); /* Muestra el menú desplazándolo al 0% */
+}
+
+
+.menu-item {
+  margin-right: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+  color: rgba(4, 4, 4, 0.767);
+}
+
+
+
+
 
 .header .titulo{
   text-align: center;
