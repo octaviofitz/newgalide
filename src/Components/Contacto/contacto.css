@@ -18,3 +18,60 @@
     background: #a032a0;
     color: #fff;
 }
+
+.contacto .Formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+.contacto .Formulario .Input{
+    margin: 0.5rem 0;
+    background-color: #fff;
+}
+
+.contacto .boton{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: #5c5188;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 50vw;
+}
+
+.contacto .boton:hover{
+    background-color: #5c5188;
+    opacity: 0.99;
+    color: #fff;
+}
+
+.contacto .boton:disabled{
+    background-color: #5c5188;
+    color: #fff;
+    opacity: 0.8;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    width: 40vw;
+    background-color: #5c5188;
+    color: #fff;
+}
+
+.contacto .button{
+    background-color: #8e388a;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+    padding: 13px 19.5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: 1.25rem auto 0;
+}
