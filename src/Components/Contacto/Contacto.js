@@ -131,9 +131,9 @@ function Contacto() {
           className='Input'
           onChange={(e) => {
             setMensaje(e.target.value);
-            if(mensaje.length<20 || mensaje.length>5000){
+            if(mensaje.length<0 || mensaje.length>5000){
               setErrorMensaje(true);
-              setLeyendaMensaje("El mensaje debe contener un mínimo de 20 caracteres y un máximo de 5000");
+              setLeyendaMensaje("Mensaje Vacío");
             }else{
                 setErrorMensaje(false);
                 setLeyendaMensaje('');

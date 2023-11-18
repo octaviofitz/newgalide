@@ -14,10 +14,11 @@ function Servicios() {
                 <img src={dato.img} className='img' alt='servicios'/>
                 <h4 className='titulo'>{dato.titulo}</h4>
                 <p className='texto'>{dato.texto}</p>
+                <Button />
+
                         </div>
         ))}
 
-        <Button />
                  
         </section>
     );

@@ -1,5 +1,5 @@
 .clientes{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     padding-bottom: 2.5rem;
 }
 
@@ -26,6 +26,6 @@
     border-radius: 50%;
     width: 85%;
     height: auto;
-    padding-top: 1rem;
+    padding-top: 0rem;
     margin: 2rem auto 0.25rem;
   }

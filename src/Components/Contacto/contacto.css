@@ -1,11 +1,11 @@
 .contacto{
-    background-color: #004678;
-    margin-top: 3rem;
+/*     background-color: #004678;
+ */    margin-top: 0rem;
     padding: 2.5rem 0;
+    background-color: #ffffffa1;
 }
 
 .contacto .titulo{
-    color: #fff;
     display: inline-block;
     font-style: normal;
     font-weight: 900;

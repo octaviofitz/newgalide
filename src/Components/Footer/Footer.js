@@ -4,7 +4,7 @@ import './footer.css';
 function Footer() {
     return (
         <section className='footer'>
-            <h6>GALIDÉ - MKT DIGITAL</h6>
+            <h6 className='titulo'>GALIDÉ - MKT DIGITAL</h6>
             <p className='texto'><strong>GALIDÉ</strong>- Todos los derechos reservados.</p>
         </section>
     );
