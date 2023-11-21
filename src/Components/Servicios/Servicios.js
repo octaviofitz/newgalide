@@ -8,7 +8,7 @@ function Servicios() {
     return (
         <section className='servicios'>
             <h3 className='titulo'>Nuestros <mark className='mark'>Servicios</mark></h3>
-
+            <div className='Container-card'>
             {data.map((dato) => (
             <div className='card'  key={dato.id}>
                 <img src={dato.img} className='img' alt='servicios'/>
@@ -18,6 +18,7 @@ function Servicios() {
 
                         </div>
         ))}
+        </div>
 
                  
         </section>

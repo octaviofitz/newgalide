@@ -23,3 +23,20 @@
     text-align: center;
     padding-top: 1rem;
 }
+
+@media (min-width: 768px){
+
+.nosotros .titulo{
+    font-size: 2rem;
+}
+
+.nosotros .texto{
+    font-size: 16px;
+} 
+    
+}
+
+@media (min-width: 1024px){
+
+    
+}

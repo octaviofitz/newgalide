@@ -59,3 +59,26 @@
 .servicios .texto{
     font-size: 14px;
 }
+
+@media (min-width: 768px){
+
+.servicios .Container-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0 4rem;
+}
+
+.servicios .card{
+    width: 50vw;
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+
+.servicios .titulo{
+    font-size: 1.6rem;
+}
+}
+@media (min-width: 1024px){
+    
+}

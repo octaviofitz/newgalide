@@ -10,7 +10,7 @@ function QuienesSomos() {
         <section className='quienes'>
             <h5 className='titulo'>Nuestros <mark className='mark'>integrantes</mark></h5>
 
-            <div>
+            <div className='container'>
             {QuienesSomosData.map((dato) => (
             <div className='card'  key={dato.id}>
                 <img src={dato.img} className='img' alt='servicios'/>

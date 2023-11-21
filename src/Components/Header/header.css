@@ -131,3 +131,15 @@
    .header .galaxy {
     animation: rotate 400s linear infinite;
    }
+
+
+@media (min-width: 768px){
+  .header .titulo{
+    margin: 2rem 5rem;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px){
+  
+}
