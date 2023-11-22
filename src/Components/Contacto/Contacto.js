@@ -78,7 +78,9 @@ function Contacto() {
         onSubmit={sendEmail}
       >
         <div className='Formulario'>
-        <TextField id="outlined-basic" name='nombre' label="Nombre" variant="outlined" className='Input' onChange={(e) => {
+      
+      
+        {/* <TextField id="outlined-basic" name='nombre' label="Nombre" variant="outlined" className='Input' onChange={(e) => {
           setName(e.target.value);
           if(name.length>45){
             setErrorName(true);
@@ -90,7 +92,36 @@ function Contacto() {
             }
         }}
         error={errorName}
-        helperText={leyendaName} />
+        helperText={leyendaName} /> */}
+
+<TextField
+  id="outlined-basic"
+  name='nombre'
+  label="Nombre"
+  variant="outlined"
+  className='Input'
+  onChange={(e) => {
+    const valorNombre = e.target.value;
+    setName(valorNombre);
+
+    if (valorNombre.trim() === '') {
+      setErrorName(true);
+      setLeyendaName("Ingrese un nombre");
+      setBotonName(false); // Desactivar el botón si el campo está vacío
+    } else if (valorNombre.length > 45) {
+      setErrorName(true);
+      setLeyendaName("Ingrese un nombre válido (máximo 45 caracteres)");
+      setBotonName(false); // Desactivar el botón si el nombre es demasiado largo
+    } else {
+      setErrorName(false);
+      setLeyendaName('');
+      setBotonName(true);
+    }
+  }}
+  error={errorName}
+  helperText={leyendaName}
+/>
+
 
         {/* <TextField id="filled-basic" name='mail' label="Correo" variant="outlined" className='Input'  onChange={(e) => {
           setMail(e.target.value);
@@ -114,12 +145,13 @@ function Contacto() {
   variant="outlined"
   className="Input"
   onChange={(e) => {
-    const valorEmail = e.target.value; // Utiliza el valor del evento directamente
-    setMail(valorEmail); // Actualiza el estado
+    const valorEmail = e.target.value;
+    setMail(valorEmail);
 
-    if (!re.test(valorEmail)) {
+    if (!re.test(valorEmail) || valorEmail.trim() === '') {
       setErrorMail(true);
       setLeyendaMail("Ingrese un correo electrónico válido");
+      setBotonMail(false); // Desactivar el botón si el campo está vacío o el correo no es válido
     } else {
       setErrorMail(false);
       setLeyendaMail('');
@@ -129,6 +161,7 @@ function Contacto() {
   error={errorMail}
   helperText={leyendaMail}
 />
+
 
         {/* <TextField id="standard-basic" name='telefono' label="Teléfono" variant="outlined" className='Input' type='number' onChange={(e) => {
           setTelefono(e.target.value);
@@ -145,7 +178,7 @@ function Contacto() {
         helperText={leyendaTelefono}/> */}
 
 
-        <TextField
+       {/*  <TextField
           id="filled-multiline-static"
           label="Mensaje"
           name='msg'
@@ -165,7 +198,37 @@ function Contacto() {
           }}
           error={errorMensaje} 
           helperText={leyendaMensaje}
-        />
+        /> */}
+<TextField
+  id="filled-multiline-static"
+  label="Mensaje"
+  name='msg'
+  multiline
+  rows={4}
+  className='Input'
+  onChange={(e) => {
+    const valorMensaje = e.target.value;
+    setMensaje(valorMensaje);
+
+    if (valorMensaje.trim() === '') {
+      setErrorMensaje(true);
+      setLeyendaMensaje("Ingrese un mensaje");
+      setBotonMensaje(false); // Desactivar el botón si el campo está vacío
+    } else if (valorMensaje.length > 5000) {
+      setErrorMensaje(true);
+      setLeyendaMensaje("Mensaje demasiado largo (máximo 5000 caracteres)");
+      setBotonMensaje(false); // Desactivar el botón si el mensaje es demasiado largo
+    } else {
+      setErrorMensaje(false);
+      setLeyendaMensaje('');
+      setBotonMensaje(true);
+    }
+  }}
+  error={errorMensaje}
+  helperText={leyendaMensaje}
+/>
+
+
 
 {
          botonName===true &&  botonMail===true && botonMensaje===true
