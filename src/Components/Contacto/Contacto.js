@@ -92,7 +92,7 @@ function Contacto() {
         error={errorName}
         helperText={leyendaName} />
 
-        <TextField id="filled-basic" name='mail' label="Correo" variant="outlined" className='Input'  onChange={(e) => {
+        {/* <TextField id="filled-basic" name='mail' label="Correo" variant="outlined" className='Input'  onChange={(e) => {
           setMail(e.target.value);
           if(!re.test(mail)){
             setErrorMail(true);
@@ -105,7 +105,30 @@ function Contacto() {
         }}
         error={errorMail} 
         helperText={leyendaMail}
-        />
+        /> */}
+
+<TextField
+  id="filled-basic"
+  name="mail"
+  label="Correo"
+  variant="outlined"
+  className="Input"
+  onChange={(e) => {
+    const valorEmail = e.target.value; // Utiliza el valor del evento directamente
+    setMail(valorEmail); // Actualiza el estado
+
+    if (!re.test(valorEmail)) {
+      setErrorMail(true);
+      setLeyendaMail("Ingrese un correo electrónico válido");
+    } else {
+      setErrorMail(false);
+      setLeyendaMail('');
+      setBotonMail(true);
+    }
+  }}
+  error={errorMail}
+  helperText={leyendaMail}
+/>
 
         {/* <TextField id="standard-basic" name='telefono' label="Teléfono" variant="outlined" className='Input' type='number' onChange={(e) => {
           setTelefono(e.target.value);
