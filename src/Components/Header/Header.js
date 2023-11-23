@@ -25,7 +25,7 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-70} 
-            duration={1500}
+            duration={500}
           >
             Servicios
             </Link>
@@ -36,7 +36,7 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-70} 
-            duration={1800}
+            duration={500}
           >
             Clientes
             </Link>
@@ -46,7 +46,7 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-70} 
-            duration={2000}
+            duration={500}
           >
             Nosotros
             </Link>
@@ -56,7 +56,7 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-70} 
-            duration={2500}
+            duration={500}
           >
             Contacto
             </Link>
