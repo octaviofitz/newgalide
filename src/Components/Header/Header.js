@@ -66,8 +66,12 @@ function Header() {
  */}
 
         <div className='container'>
-            <div><h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1></div>
             <div>
+            <img src='/img/banner/bars.svg' className='bars' />
+              <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>
+              </div>
+            <div>
+              <img src='/img/banner/a-circle.svg'  className='circle'/>
             <img src='/img/banner/try.png' className='galaxy' />
             </div>
             </div>

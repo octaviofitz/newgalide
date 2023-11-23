@@ -96,6 +96,28 @@
   color: rgba(4, 4, 4, 0.767);
 }
 
+@keyframes a-bars {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.header .bars {
+  z-index: -1;
+  margin-bottom: -9rem;
+    background-size: cover;
+    height: 60px;
+    width: 400px;
+  animation-direction: reverse;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-name: a-bars;
+  animation-timing-function: linear;
+  transform-origin: center; /* Esto asegura que el punto de origen de la transformación sea el centro */
+}
 
 
 
@@ -112,11 +134,34 @@
   font-weight: 900;
 }
 
+.header .circle{
+  width: 100px;
+  z-index: -1;
+  animation: rotate 400s linear infinite;
+  display: flex;
+  align-items: center;
+  margin: 1rem 5rem;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header .circle {
+  animation: rotate 4s linear infinite; /* Puedes ajustar la duración y el tipo de animación según tus necesidades */
+  transform-origin: center; /* Esto establece el punto alrededor del cual se realizará la rotación */
+}
+
 .header .galaxy{
     width: 350px;
     display: flex;
     align-items: center;
-    margin: -3rem auto;
+    margin: -11rem auto;
 }
 
 @keyframes rotate {
@@ -137,6 +182,10 @@
   .header .titulo{
     margin: 2rem 5rem;
     font-size: 2rem;
+  }
+
+  .header .container{
+    display: flex;
   }
 }
 

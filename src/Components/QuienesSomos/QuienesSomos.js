@@ -5,7 +5,6 @@ import QuienesSomosData from '../../Data/DataQuienesSomos';
 import './quienesSomos.css';
 
 function QuienesSomos() {
-    console.log(QuienesSomosData);
     return (
         <section className='quienes'>
             <h5 className='titulo'>Nuestros <mark className='mark'>integrantes</mark></h5>

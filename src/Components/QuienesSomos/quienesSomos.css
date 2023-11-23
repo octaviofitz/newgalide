@@ -38,8 +38,8 @@
 .quienes .card .img{
     border-radius: 50%;
     object-fit: cover;
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     display: block;
     margin: 1rem auto;
 }
@@ -52,6 +52,7 @@
     text-transform: uppercase;
     margin: 0 25% 0.5rem;
     border-radius: 20px;
+    font-size: 1rem;
 }
 
 .quienes .card .texto{
