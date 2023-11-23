@@ -64,7 +64,7 @@ function Contacto() {
     }
 
     return (
-        <section className='contacto'>
+        <section className='contacto' id='contacto'>
             <h5 className='titulo'>CONSULTANOS<br></br><mark className='mark'>LO QUE QUIERAS</mark>, CUANDO QUIERAS!</h5>
 
             <Box

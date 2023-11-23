@@ -16,7 +16,7 @@ function Clientes() {
       };
 
     return (
-        <section className='clientes'>
+        <section className='clientes' id='clientes'>
            <h3 className='titulo'>CLIENTES<br></br><mark className='mark'>SATISFECHOS</mark></h3>
 
            <div className="carousel-container">

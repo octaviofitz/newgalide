@@ -6,7 +6,7 @@ import './quienesSomos.css';
 
 function QuienesSomos() {
     return (
-        <section className='quienes'>
+        <section className='quienes' id='quienesSomos'>
             <h5 className='titulo'>Nuestros <mark className='mark'>integrantes</mark></h5>
 
             <div className='container'>
