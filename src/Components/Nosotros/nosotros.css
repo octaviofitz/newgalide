@@ -38,5 +38,14 @@
 
 @media (min-width: 1024px){
 
-    
+ .nosotros .titulo{
+    text-align: left;
+    font-size: 3rem;
+ }   
+
+ .nosotros .texto{
+    font-size: 18px;
+    text-align: left;
+    padding: 1rem 2rem;
+ }
 }
