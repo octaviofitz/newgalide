@@ -1,13 +1,19 @@
-.clientes{
+#clientes .clientesMobile{
     margin-top: 2rem;
     padding-bottom: 2.5rem;
 }
 
-.clientes .titulo{
+#clientes .clientesDesktop{
+  display: none;
+}
+
+#clientes .clientesMobile .titulo,
+#clientes .clientesDesktop .titulo .mark{
     text-align: center;
 }
 
-.clientes .titulo .mark{
+#clientes .clientesMobile .titulo .mark,
+#clientes .clientesDesktop .titulo .mark{
     background: #004678;
     color: #fff;
     display: inline-block;
@@ -17,7 +23,7 @@
     padding: 0.1em 0.3em;
 }
 
-.clientes-container {
+#clientes .clientesMobilecontainer {
     width: 100%;
     margin: auto;   
   }
@@ -31,16 +37,41 @@
 
   @media (min-width: 768px){
 
-    .rounded-image{
-        width: 50vw;
-    }
+    #clientes .clientesMobile{
+      display: none;
+  }
+  
+ #clientes .clientesDesktop{
+    display: inline;
+ }
 
+ #clientes .clientesDesktop .titulo{
+  text-align: center;
+ }
+
+ #clientes .clientesDesktop .container{
+  display: flex;
+  margin: 1.5rem auto 0;
+  justify-content: center;
+ }
+
+ #clientes .clientesDesktop .container .imagenes{
+  width: 250px;
+  margin: 2rem 0;
+ }
+
+ 
   }
 
   @media (min-width: 1024px){
-    .clientes .titulo{
-      font-size: 2.5rem;
-      text-align: left;
-      margin-left: 7vw;
+    #clientes .clientesDesktop .titulo{
+      font-size: 2.75rem;
+      text-align: center;
+      margin-left: 0;
     }    
+
+    #clientes .clientesDesktop .container .imagenes{
+      width: 30vw;
+      margin: 2rem 0;
+     }
   }

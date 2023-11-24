@@ -68,6 +68,7 @@ function Header() {
             <div>
             <img src='/img/banner/bars.svg' className='bars' />
               <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>
+              <img src='img/banner/line.svg' className='line' />
               </div>
             <div>
               <img src='/img/banner/a-circle.svg'  className='circle'/>

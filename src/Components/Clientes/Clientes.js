@@ -16,24 +16,50 @@ function Clientes() {
       };
 
     return (
-        <section className='clientes' id='clientes'>
+
+      <section id='clientes'>
+
+        <article className='clientesMobile'>
            <h3 className='titulo'>CLIENTES<br></br><mark className='mark'>SATISFECHOS</mark></h3>
 
            <div className="carousel-container">
       <Slider {...settings}>
         <div>
-          <img className="rounded-image" src="/img/Clientes/petba.png" alt="Imagen 1" />
+          <img className="rounded-image" src="/img/Clientes/petba.png" alt="Petba" />
         </div>
         <div>
-          <img className="rounded-image" src="/img/Clientes/rubicat.webp" alt="Imagen 2" />
+          <img className="rounded-image" src="/img/Clientes/rubicat.webp" alt="Rubicat" />
         </div>
         <div>
-          <img className="rounded-image" src="/img/Clientes/vitalcan.webp" alt="Imagen 2" />
+          <img className="rounded-image" src="/img/Clientes/vitalcan.webp" alt="Vitalcan" />
         </div>
       </Slider>
     </div>
   
+        </article>
+      
+        <article className='clientesDesktop'>
+        <h3 className='titulo'>CLIENTES<br></br><mark className='mark'>SATISFECHOS</mark></h3>
+        
+        <div className='container'>
+           
+            <div>
+              <img src='img/Clientes/vitalcan.webp' alt='Vitalcan' className='imagenes'/>
+               </div>
+
+                  <div>
+                   <img src='img/Clientes/petba.png' alt='Petba' className='imagenes' />
+                      </div>
+
+                     <div>
+                       <img src='img/Clientes/rubicat.webp' alt='Rubicat' className='imagenes' />
+                       </div>
+                  
+                  </div>
+
+        </article>
         </section>
+        
     );
 }
 
