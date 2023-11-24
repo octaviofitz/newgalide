@@ -95,3 +95,16 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
     width: 70vw;
 }
 }
+
+@media (min-width: 1024px){
+    .contacto .titulo{
+        text-align: left;
+        font-size: 2rem;
+        margin-left: -1rem;
+        margin-top: -1.5rem;
+    }
+
+    .contacto .button{
+        padding: 1rem 3rem;
+    }
+}
