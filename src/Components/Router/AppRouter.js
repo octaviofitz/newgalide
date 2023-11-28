@@ -14,11 +14,13 @@ function AppRouter() {
         <div>
             <BrowserRouter>
             <Header />
+            <main>
             <Nosotros />
             <Servicios />
             <Clientes />
             <QuienesSomos />
             <Contacto />
+            </main>
             <Footer />
             </BrowserRouter>
         </div>

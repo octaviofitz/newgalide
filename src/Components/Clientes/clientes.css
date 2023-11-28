@@ -12,10 +12,8 @@
     text-align: center;
 }
 
-#clientes .clientesMobile .titulo .mark,
-#clientes .clientesDesktop .titulo .mark{
-    background: #004678;
-    color: #fff;
+#clientes .clientesMobile .titulo .strong{
+    color: #004678;
     display: inline-block;
     font-style: normal;
     font-weight: 900;
@@ -47,6 +45,12 @@
 
  #clientes .clientesDesktop .titulo{
   text-align: center;
+ }
+
+ #clientes .clientesDesktop .titulo .strong{
+  text-align: center;
+  color: #004678;
+  padding-left: 0.5rem;
  }
 
  #clientes .clientesDesktop .container{

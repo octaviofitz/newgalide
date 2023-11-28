@@ -20,26 +20,27 @@ function Clientes() {
       <section id='clientes'>
 
         <article className='clientesMobile'>
-           <h3 className='titulo'>CLIENTES<br></br><mark className='mark'>SATISFECHOS</mark></h3>
+           <h3 className='titulo'>CLIENTES<br></br><strong className='strong'>SATISFECHOS</strong></h3>
 
            <div className="carousel-container">
       <Slider {...settings}>
         <div>
-          <img className="rounded-image" src="/img/Clientes/petba.png" alt="Petba" />
+          <img className="rounded-image" src="/img/Clientes/vitalcan.webp" alt="Vitalcan" />
         </div>
         <div>
           <img className="rounded-image" src="/img/Clientes/rubicat.webp" alt="Rubicat" />
         </div>
         <div>
-          <img className="rounded-image" src="/img/Clientes/vitalcan.webp" alt="Vitalcan" />
-        </div>
+          <img className="rounded-image" src="/img/Clientes/petba.png" alt="Petba" />
+          </div>
+        
       </Slider>
     </div>
   
         </article>
       
         <article className='clientesDesktop'>
-        <h3 className='titulo'>CLIENTES<br></br><mark className='mark'>SATISFECHOS</mark></h3>
+        <h3 className='titulo'>CLIENTES<strong className='strong'>SATISFECHOS</strong></h3>
         
         <div className='container'>
            

@@ -25,6 +25,7 @@
   padding: 2rem;
   font-weight: 700;
   cursor: pointer;
+  font-family: 'made sans';
 } 
 
 /* Navbar.css */
@@ -44,10 +45,10 @@
 .logo {
   font-size: 1.5em;
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
   padding: 1.5rem;
-  text-transform: uppercase;
   cursor: pointer;
+  font-family: 'made sans';
 }
 
 .menu-icon {
@@ -93,7 +94,6 @@
   margin-right: 0;
   padding: 10px;
   text-transform: uppercase;
-  font-style: italic;
   font-weight: 600;
   color: rgba(4, 4, 4, 0.767);
   cursor: pointer;
@@ -101,7 +101,8 @@
 
 .menu-item:hover {
   font-weight: 700;
-}
+/*   text-decoration: underline;
+ */}
 
 @keyframes a-bars {
   0% {
@@ -133,7 +134,7 @@
 
 .header .titulo{
   text-align: center;
-  padding: 0rem 1rem;
+  padding: 0rem 1rem 1rem;
   color: white;
   font-size: 32px;
   font-weight: 300;
@@ -183,7 +184,7 @@
    }
    
    .header .galaxy {
-    animation: rotate 400s linear infinite;
+    animation: rotate 5000ms linear infinite;
    }
 
 
@@ -195,6 +196,7 @@
   .header .titulo{
     margin: 2rem 5rem;
     font-size: 2rem;
+    padding-bottom: 0;
   }
 
   .header .container{

@@ -66,13 +66,13 @@ function Header() {
   
         <div className='container'>
             <div>
-            <img src='/img/banner/bars.svg' className='bars' />
+            <img src='/img/banner/bars.svg' className='bars'  alt='Barras decorativas'/>
               <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>
-              <img src='img/banner/line.svg' className='line' />
+              <img src='img/banner/line.svg' className='line' alt='Líneas decorativas' />
               </div>
             <div>
-              <img src='/img/banner/a-circle.svg'  className='circle'/>
-            <img src='/img/banner/try.png' className='galaxy' />
+              <img src='/img/banner/a-circle.svg'  className='circle' alt='Circulo giratorio'/>
+            <img src='/img/banner/astronaut.png' className='galaxy' alt='Astronauta Galidé' />
             </div>
             </div>
         </section>

@@ -4,24 +4,23 @@
 
 .nosotros .titulo{
     text-align: center;
-    text-transform: uppercase;
     font-style: italic;
 }
 
-.nosotros .titulo .mark{
-    background-color: #004678;
-    font-weight: 900;
-    padding: 0.1em 0.2em;
-    color: #fff;
+.nosotros .titulo .brand{
+    color: #000;
     font-style: normal;
+    font-family: 'made sans regular';
+    opacity: 0.96;
 }
 
 .nosotros .texto{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 19.5px;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.6rem;
+    line-height: 1.65;
 }
 
 @media (min-width: 768px){
@@ -48,6 +47,5 @@
     font-size: 20px;
     text-align: left;
     padding: 1rem 2rem;
-    line-height: 1.65;
  }
 }

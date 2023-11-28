@@ -21,13 +21,15 @@
 .quienes .titulo{
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: #ff3af6;
     font-weight: 700;
+    font-style: italic;
 }
 
-.quienes .mark{
-    background: #a032a0;
+.quienes .titulo .strong{
     color: #fff;
+    font-style: normal;
+    padding-left: 0.35rem;
 }
 
 .quienes .card{

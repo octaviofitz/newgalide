@@ -30,14 +30,15 @@
     color: #fff;
     font-style: italic;
     text-transform: uppercase;
+    color: #ff3af6;
+    font-weight: 900;
 }
 
-.servicios .titulo .mark{
-    background-color: #a032a0;
+.servicios .titulo .strong{
     font-weight: 900;
-    padding: 0.1em 0.2em;
     color: #fff;
     font-style: normal;
+    padding-left: 0.35rem;
 }
 
 .servicios .card{
@@ -58,6 +59,28 @@
 
 .servicios .texto{
     font-size: 14px;
+}
+
+.buttonContainer .button{
+    background-color: #8e388a;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: italic;
+    padding: 13px 19.5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+
+.buttonContainer a{
+    text-decoration: none;
 }
 
 @media (min-width: 768px){

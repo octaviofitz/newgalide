@@ -5,3 +5,13 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'made sans';
+  src: url('../public/fonts/made.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'made sans regular';
+  src: url('../public/fonts/madeRegular.otf') format('truetype');
+}

@@ -77,6 +77,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
     margin: 1.25rem auto 0;
 }
 
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    width: 40vw;
+    background-color: #004678;
+    color: #fff;
+}
+
 @media (min-width: 768px){
 
 .contacto {
@@ -94,6 +100,11 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 .contacto .Formulario{
     width: 70vw;
 }
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    width: 30vw;
+}
+
 }
 
 @media (min-width: 1024px){
@@ -106,5 +117,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 
     .contacto .button{
         padding: 1rem 3rem;
+    }
+
+    div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        width: 15vw;
     }
 }

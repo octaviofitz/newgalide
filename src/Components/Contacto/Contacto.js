@@ -40,13 +40,6 @@ function Contacto() {
     const [botonMail, setBotonMail]= useState(false)
     const re= /\S+@\S+\.\S+/ // eslint-disable-line
     
-    
-/*     //validación teléfono
-    const [telefono, setTelefono]= useState('')
-    const [leyendaTelefono, setLeyendaTelefono]= useState('')
-    const [errorTelefono, setErrorTelefono] = useState(false)
-    const [botonTelefono, setBotonTelefono]= useState(false) */
-    
     //validación mensaje
     const [mensaje, setMensaje]= useState('')
     const [leyendaMensaje, setLeyendaMensaje]= useState('')
@@ -79,20 +72,6 @@ function Contacto() {
       >
         <div className='Formulario'>
       
-      
-        {/* <TextField id="outlined-basic" name='nombre' label="Nombre" variant="outlined" className='Input' onChange={(e) => {
-          setName(e.target.value);
-          if(name.length>45){
-            setErrorName(true);
-            setLeyendaName("Ingrese un nombre válido");
-          }else{
-              setErrorName(false);
-              setLeyendaName('');
-              setBotonName(true)
-            }
-        }}
-        error={errorName}
-        helperText={leyendaName} /> */}
 
 <TextField
   id="outlined-basic"
@@ -122,22 +101,6 @@ function Contacto() {
   helperText={leyendaName}
 />
 
-
-        {/* <TextField id="filled-basic" name='mail' label="Correo" variant="outlined" className='Input'  onChange={(e) => {
-          setMail(e.target.value);
-          if(!re.test(mail)){
-            setErrorMail(true);
-            setLeyendaMail("Ingrese un correo electrónico válido");
-          }else{
-              setErrorMail(false);
-              setLeyendaMail('');
-              setBotonMail(true)
-            }
-        }}
-        error={errorMail} 
-        helperText={leyendaMail}
-        /> */}
-
 <TextField
   id="filled-basic"
   name="mail"
@@ -162,43 +125,6 @@ function Contacto() {
   helperText={leyendaMail}
 />
 
-
-        {/* <TextField id="standard-basic" name='telefono' label="Teléfono" variant="outlined" className='Input' type='number' onChange={(e) => {
-          setTelefono(e.target.value);
-          if(telefono.length<6 || telefono.length>25){
-            setErrorTelefono(true);
-            setLeyendaTelefono("Ingrese un número de contacto válido");
-          }else{
-              setErrorTelefono(false);
-              setLeyendaTelefono('');
-              setBotonTelefono(true)
-            }
-        }}
-        error={errorTelefono} 
-        helperText={leyendaTelefono}/> */}
-
-
-       {/*  <TextField
-          id="filled-multiline-static"
-          label="Mensaje"
-          name='msg'
-          multiline
-          rows={4}
-          className='Input'
-          onChange={(e) => {
-            setMensaje(e.target.value);
-            if(mensaje.length<0 || mensaje.length>5000){
-              setErrorMensaje(true);
-              setLeyendaMensaje("Mensaje Vacío");
-            }else{
-                setErrorMensaje(false);
-                setLeyendaMensaje('');
-                setBotonMensaje(true)
-              }
-          }}
-          error={errorMensaje} 
-          helperText={leyendaMensaje}
-        /> */}
 <TextField
   id="filled-multiline-static"
   label="Mensaje"
