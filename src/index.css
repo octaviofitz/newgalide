@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}
+    --violet: #bd89da;
+    --blue: #6a78c1;
+  }
 
 @font-face {
   font-family: 'made sans';

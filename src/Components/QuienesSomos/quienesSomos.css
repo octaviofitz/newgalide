@@ -1,5 +1,5 @@
 .quienes{
-    background-color: #004678;
+    background-color: var(--blue);
     padding: 2.5rem 2.5rem 5rem;
     margin-top: 1.5rem;
     position: relative;
@@ -21,7 +21,7 @@
 .quienes .titulo{
     text-align: center;
     text-transform: uppercase;
-    color: #ff3af6;
+    color: var(--violet);
     font-weight: 700;
     font-style: italic;
 }
@@ -35,7 +35,7 @@
 .quienes .card{
     margin-top: 2rem;
     border-radius: 45px;
-    width: 300px;
+    width: 90%;
     display: flex;
     margin: 2rem auto;
 }
@@ -51,7 +51,7 @@
 
 .quienes .card .nombre{
     text-align: center;
-    background-color: #004678;
+    background-color: var(--blue);
     color: #fff;
     padding: 5px 0;
     text-transform: uppercase;

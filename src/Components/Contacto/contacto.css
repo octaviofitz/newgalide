@@ -1,6 +1,5 @@
 .contacto{
-/*     background-color: #004678;
- */    margin-top: 0rem;
+    margin-top: 0rem;
     padding: 2.5rem 0;
     background-color: #ffffffa1;
 }
@@ -14,9 +13,10 @@
     line-height: 1.5em;
 }
 
-.contacto .titulo .mark{
-    background: #a032a0;
-    color: #fff;
+.contacto .titulo .strong{
+    color: var(--violet);
+    /* color: #fff; */
+    font-weight: 900;
 }
 
 .contacto .Formulario{
@@ -29,7 +29,6 @@
 .contacto .Formulario .Input{
     margin: 0.5rem 0;
     background-color: #fff;
-    color: red;
 }
 
 .contacto .boton{
@@ -61,7 +60,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 }
 
 .contacto .button{
-    background-color: #8e388a;
+    background-color: var(--violet);
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -79,7 +78,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
     width: 40vw;
-    background-color: #004678;
+    background-color: var(--blue);
     color: #fff;
 }
 
