@@ -14,7 +14,7 @@ function Header() {
     return (
         <section className='header'>
 <nav className="navbar">
-      <div className="logo">Galidé</div>
+      <div className="logo">GALIDÉ</div>
       <div className="menu-icon" onClick={toggleMenu}>
         ☰
       </div>

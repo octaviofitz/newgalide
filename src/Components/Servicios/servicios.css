@@ -51,10 +51,11 @@
 }
 
 .servicios .card .titulo{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 700;
     color: #000;
     font-style: normal;
+    padding: 0;
 }
 
 .servicios .texto{
