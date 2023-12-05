@@ -1,7 +1,7 @@
 .footer {
     text-align: center;
     padding: 2rem;
-    background-image: radial-gradient(rgb(132, 0, 255), purple)!important;
+    background-image: radial-gradient(#8CCDDB, #5A66A3)!important;
     font-size: 2rem;
 }
 

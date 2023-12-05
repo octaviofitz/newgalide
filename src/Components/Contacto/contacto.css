@@ -11,11 +11,11 @@
     padding: 0.2em 0.2em;
     padding-left: 1rem;
     line-height: 1.5em;
+    color: var(--blue);
 }
 
 .contacto .titulo .strong{
-    color: var(--violet);
-    /* color: #fff; */
+    color: var(--celest);
     font-weight: 900;
 }
 
@@ -35,32 +35,32 @@
     display: flex;
     justify-content: center;
     margin: 1rem auto;
-    background-color: #5c5188;
+    background-color: var(--celest);
     color: #fff;
     font-size: 1.2rem;
     width: 50vw;
 }
 
 .contacto .boton:hover{
-    background-color: #5c5188;
+    background-color: var(--celest);
     opacity: 0.99;
     color: #fff;
 }
 
 .contacto .boton:disabled{
-    background-color: #5c5188;
+    background-color: var(--celest);
     color: #fff;
     opacity: 0.8;
 }
 
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
     width: 40vw;
-    background-color: #5c5188;
+    background-color: var(--celest);
     color: #fff;
 }
 
 .contacto .button{
-    background-color: var(--violet);
+    background-color: var(--celest);
     border-radius: 20px;
     border: none;
     color: #fff;

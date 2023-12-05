@@ -1,6 +1,6 @@
 .servicios{
     background-color: var(--blue);
-    padding: 2rem 0 3rem;
+    padding: 1.5rem 0 3rem;
     position: relative;
 }
       
@@ -28,9 +28,8 @@
     text-align: center;
     padding: 0rem 2.5rem;
     color: #fff;
-    font-style: italic;
     text-transform: uppercase;
-    color: var(--violet);;
+    color: var(--celest);;
     font-weight: 900;
 }
 
@@ -63,7 +62,7 @@
 }
 
 .buttonContainer .button{
-    background-color: var(--violet);
+    background-color: var(--celest);
     border-radius: 20px;
     border: none;
     color: #fff;
@@ -78,6 +77,11 @@
     align-items: center;
     margin: auto;
     margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.buttonContainer .button:hover{
+    background-color: var(--blue);
 }
 
 .buttonContainer a{
@@ -90,7 +94,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 2rem 0 4rem;
+    margin: 1rem 0 4rem;
 }
 
 .servicios .Container-card .card{
@@ -114,7 +118,7 @@
     }
 
     .servicios .titulo{
-        text-align: left;
+        text-align: center;
         font-size: 2.5rem;
         padding-top: 1rem;
         padding-left: 7rem;
@@ -158,6 +162,7 @@
         text-align: center;
         margin:0;
         padding:2rem;
+        padding-bottom: 0;
         font-size: 2.75rem;
     }
 

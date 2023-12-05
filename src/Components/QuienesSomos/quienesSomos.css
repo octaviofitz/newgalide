@@ -21,9 +21,8 @@
 .quienes .titulo{
     text-align: center;
     text-transform: uppercase;
-    color: var(--violet);
+    color: var(--celest);
     font-weight: 700;
-    font-style: italic;
 }
 
 .quienes .titulo .strong{

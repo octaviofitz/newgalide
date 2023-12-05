@@ -58,7 +58,7 @@ function Contacto() {
 
     return (
         <section className='contacto' id='contacto'>
-            <h5 className='titulo'>CONSULTANOS<br></br><strong className='strong'>LO QUE QUIERAS</strong>, CUANDO QUIERAS!</h5>
+            <h5 className='titulo'>CONSULTANOS<br></br><strong className='strong'>LO QUE QUIERAS, </strong>CUANDO QUIERAS!</h5>
 
             <Box
         component="form"

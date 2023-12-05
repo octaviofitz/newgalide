@@ -3,8 +3,10 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    --violet: #bd89da;
-    --blue: #6a78c1;
+    --violet: #BA8FDB;
+    --blue: #5A66A3;
+    --celest: #8CCDDB;
+    /* cursor:url(http://falconmasters.com/img/cursor.gif), auto; */
   }
 
 @font-face {

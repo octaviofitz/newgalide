@@ -5,6 +5,7 @@
 .nosotros .titulo{
     text-align: center;
     font-style: italic;
+    color: var(--blue);
 }
 
 .nosotros .titulo .brand{
