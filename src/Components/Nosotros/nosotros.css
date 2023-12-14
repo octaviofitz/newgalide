@@ -2,6 +2,10 @@
     padding: 4vh 10vw 4vh;
 }
 
+.nosotros b{
+    font-weight: 600;
+}
+
 .nosotros .titulo{
     text-align: center;
     font-style: italic;
