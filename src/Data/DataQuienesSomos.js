@@ -11,7 +11,7 @@ const QuienesSomosData = [
     },
     {id: 3,
     nombre: 'Octavio',
-    img: '/img/QuienesSomos/Octavio.png',
+    img: '/img/QuienesSomos/Octavio.webp',
     texto: 'Big data'
     },
     {id: 4,

@@ -155,7 +155,7 @@
     }
 
     .servicios .Container-card .card .img{
-        width: 10vw;
+        max-width: 10vw;
     }
 
     .servicios .titulo{
