@@ -44,12 +44,10 @@
 }
 
 .logo {
-  font-size: 1.5em;
-  color: #fff;
-  font-weight: 900;
+  width: 180px;
   padding: 1.5rem;
+  margin-top: 0.35rem;
   cursor: pointer;
-  font-family: 'made bold';
 }
 
 .menu-icon {
@@ -263,7 +261,7 @@
 
   .header .navbar .logo{
     margin-left: 7rem;
-    font-size: 2.25rem;
+    width: 200px;
   }
 
   .menu {

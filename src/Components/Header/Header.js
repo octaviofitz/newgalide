@@ -14,7 +14,7 @@ function Header() {
     return (
         <section className='header'>
 <nav className="navbar">
-      <div className="logo">GALIDÉ</div>
+      <img src='/img/banner/logo.png' className="logo"></img>
       <div className="menu-icon" onClick={toggleMenu}>
         ☰
       </div>
@@ -72,7 +72,7 @@ function Header() {
               </div>
             <div>
               <img src='/img/banner/a-circle.svg'  className='circle' alt='Circulo giratorio'/>
-            <img src='/img/banner/astronaut.png' className='galaxy' alt='Astronauta Galidé' />
+            <img src='/img/banner/astronaut.webp' className='galaxy' alt='Astronauta Galidé' />
             </div>
             </div>
         </section>
