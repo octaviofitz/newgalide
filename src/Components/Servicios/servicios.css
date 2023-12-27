@@ -155,7 +155,7 @@
     }
 
     .servicios .Container-card .card .img{
-        max-width: 10vw;
+        max-height: 13vw;
     }
 
     .servicios .titulo{
@@ -172,4 +172,6 @@
         color: #000;
         font-style: normal;
     }
+
+
 }

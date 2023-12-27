@@ -2,7 +2,7 @@ const servicios = [
     {id: 1,
     titulo: 'Protección de Marca',
     img: '/img/Servicios/protect.webp',
-    texto: 'Nuestro servicio integral de protección de marca garantiza la reputación, imagen y control de precios de nuestros valiosos clientes. Preservamos la identidad y el prestigio de una marca, desarrollando estrategias sólidas y eficientes para enfrentar los desafíos del mercado actual.',
+    texto: 'Nuestro servicio integral de protección de marca garantiza la reputación, imagen y control de precios de nuestros clientes. Preservamos la identidad y prestigio de una marca, desarrollando estrategias sólidas para enfrentar los desafíos del mercado actual.',
     cel: 541143993437,
     msg: 'Hola, estoy en interesado en averiguar por los servicios de Protección de Marca de Galidé.'
     },
@@ -23,7 +23,7 @@ const servicios = [
     {id: 4,
     titulo: 'Identidad de Marca',
     img: '/img/Servicios/identidad.webp',
-    texto: 'Construimos el adn de tu marca, desde el concepto hasta la identidad visual. Tenemos en cuenta tu público objetivo y competencia para la creación de la misma. Nuestro desarrollo incluye arquetipos de diseño, naming, logotipo, slogan, paleta de colores y mucho más.',
+    texto: 'Construimos el ADN de tu marca, desde el concepto hasta la identidad visual. Tenemos en cuenta tu público objetivo y competencia para la creación de la misma. Nuestro desarrollo incluye arquetipos de diseño, naming, logotipo, slogan, paleta de colores y mucho más.',
     cel: 541132535790,
     msg: 'Hola, estoy en interesado en averiguar por los servicios de Identidad de Marca de Galidé.'
         }
