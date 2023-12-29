@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import QuienesSomosData from '../../Data/DataQuienesSomos';
 import './quienesSomos.css';
 
@@ -12,7 +11,7 @@ function QuienesSomos() {
             <div className='container'>
             {QuienesSomosData.map((dato) => (
             <div className='card'  key={dato.id}>
-                <img src={dato.img} className='img' alt='Nosotros'/>
+                <img src={dato.img} className='img' alt='Nosotros' loading='lazy'/>
                 <h4 className='nombre'>{dato.nombre}</h4>
                 <p className='texto'>{dato.texto}</p>
 
