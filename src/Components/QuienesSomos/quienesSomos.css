@@ -34,6 +34,7 @@
     margin-top: 2rem;
     border-radius: 45px;
     width: 90%;
+    max-width: 20rem;
     display: flex;
     margin: 2rem auto;
 }
@@ -55,14 +56,13 @@
     text-transform: uppercase;
     margin: 0 25% 0.5rem;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .quienes .card .texto{
     text-align: center;
-    font-style: italic;
     font-weight: 500;
-    margin-top: 0.25rem;
+    margin: 0.25rem 1rem 1rem;
 }
 
 @media (min-width: 768px){
@@ -107,6 +107,14 @@
 
     .quienes .card{
         width: 330px;
+    }
+
+    .quienes .card .titulo{
+        font-size: 1.35rem;
+    }
+
+    .quienes .card .texto{
+        font-size: 1.1rem;
     }
 }
 
