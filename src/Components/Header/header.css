@@ -27,13 +27,6 @@
   font-family: 'made sans';
 } 
 
-/* Navbar.css */
-/* 
-.header .navbar .img{
-  width: 20vw;
-}
- */
-
 .navbar {
   padding: 15px;
   display: flex;
@@ -72,21 +65,21 @@
   position: absolute;
   top: 170%;
   left: 50%;
-  transform: translate(100%, -50%); /* Centra el menú */
+  transform: translate(100%, -50%); 
   background-color: #fff;
   width: 90vw;
   flex-direction: column;
   z-index: 2;
-  border: 1px solid #fff; /* Borde principal blanco */
+  border: 1px solid #fff; 
   box-shadow: 0 0 10px #004678;
-  transition: transform 0.75s ease-in; /* Agrega una transición */
+  transition: transform 0.75s ease-in; 
   overflow: hidden;
 }
 
 .menu.show {
   visibility: visible;
  border-radius: 15px;
-  transform: translate(-50%, -50%); /* Muestra el menú desplazándolo al 0% */
+  transform: translate(-50%, -50%); 
 }
 
 
@@ -107,8 +100,7 @@
 
 .menu-item:hover {
   font-weight: 700;
-/*   text-decoration: underline;
- */}
+}
 
 @keyframes a-bars {
   0% {
@@ -130,7 +122,7 @@
   animation-iteration-count: infinite;
   animation-name: a-bars;
   animation-timing-function: linear;
-  transform-origin: center; /* Esto asegura que el punto de origen de la transformación sea el centro */
+  transform-origin: center; 
 }
 
 .header .line{
@@ -169,8 +161,8 @@
 }
 
 .header .circle {
-  animation: rotate 4s linear infinite; /* Puedes ajustar la duración y el tipo de animación según tus necesidades */
-  transform-origin: center; /* Esto establece el punto alrededor del cual se realizará la rotación */
+  animation: rotate 4s linear infinite; 
+  transform-origin: center; 
 }
 
 .header .galaxy{
@@ -240,7 +232,7 @@
   animation-iteration-count: infinite;
   animation-name: a-bars;
   animation-timing-function: linear;
-  transform-origin: center; /* Esto asegura que el punto de origen de la transformación sea el centro */
+  transform-origin: center; 
   }
 
   .header .titulo{
