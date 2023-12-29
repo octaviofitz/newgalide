@@ -12,10 +12,12 @@ body {
 @font-face {
   font-family: 'made sans';
   src: url('../public/fonts/made.otf') format('truetype');
+  font-display: swap;
 }
 
 
 @font-face {
   font-family: 'made bold';
   src: url('../public/fonts/madeBold.otf') format('truetype');
+  font-display: swap;
 }

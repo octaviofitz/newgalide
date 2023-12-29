@@ -14,7 +14,7 @@ function Header() {
     return (
         <section className='header'>
 <nav className="navbar">
-      <img src='/img/banner/logo.png' className="logo"></img>
+      <img src='/img/banner/logo.png' className="logo" alt='Logo Galidé'></img>
       <div className="menu-icon" onClick={toggleMenu}>
         ☰
       </div>
