@@ -20,7 +20,7 @@ function Clientes() {
       <section id='clientes'>
 
         <article className='clientesMobile'>
-           <h3 className='titulo'>CLIENTES<strong className='strong'>SATISFECHOS</strong></h3>
+           <h4 className='titulo'>CLIENTES<strong className='strong'>SATISFECHOS</strong></h4>
 
            <div className="carousel-container">
       <Slider {...settings}>
