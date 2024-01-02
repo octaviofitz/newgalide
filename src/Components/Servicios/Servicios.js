@@ -12,7 +12,7 @@ function Servicios() {
            
             <div className='Container-card'>
             {data.map((dato) => (
-            <div className='card'  key={dato.id}>
+            <div className='card' key={dato.id}>
 
                 <img src={dato.img} className='img' alt='Servicios'/>
                 <h4 className='titulo'>{dato.titulo}</h4>
