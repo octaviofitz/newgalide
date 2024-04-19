@@ -23,7 +23,12 @@ const QuienesSomosData = [
     nombre: 'Lo',
     img: '/img/QuienesSomos/Lo.webp',
     texto: 'Comunicación, diseño y fotografía en proceso 📷'
-                                },         
+                                }, 
+   {id: 6,
+   nombre: 'Noelia',
+   img: '/img/QuienesSomos/Noelia.webp',
+   texto: 'Ventas, relaciones interpersonales y viajar ✈️'
+                                                                },         
 ]
 
 
