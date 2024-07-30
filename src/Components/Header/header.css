@@ -80,8 +80,8 @@
   visibility: visible;
  border-radius: 15px;
   transform: translate(-50%, -50%); 
+  margin-top: 2.25rem;
 }
-
 
 .menu-item {
   margin-right: 0;
@@ -94,8 +94,17 @@
   padding: 13px 100%;
 }
 
+.spanish{
+  width: 10px;
+}
+
+.menu-item:hover {
+  font-weight: 700;
+}
+
 .menu-item:last-child{
   border-bottom: none;
+  margin-bottom: -1.25rem;
 }
 
 .menu-item:hover {
@@ -277,7 +286,15 @@
     border-bottom: none;
     overflow: auto;
     padding: 13px;
-    
+  }
+
+  .menu-item:last-child{
+    margin-bottom: 0rem;
+  }
+
+ .spanish{
+    width: 1.5rem;
+    margin-top: -0.2rem;
   }
 
   .header{
