@@ -25,9 +25,9 @@ const QuienesSomosData = [
     texto: 'Comunicación, diseño y fotografía en proceso 📷'
                                 }, 
    {id: 6,
-   nombre: 'Noelia',
-   img: '/img/QuienesSomos/Noelia.webp',
-   texto: 'Ventas, relaciones interpersonales y viajar ✈️'
+   nombre: 'Bere',
+   img: '/img/QuienesSomos/Bere.webp',
+   texto: 'Realización audiovisual. Que la fuerza te acompañe ⭐'
                                                                 },         
 ]
 
