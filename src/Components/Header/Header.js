@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import './header.css'
 
@@ -69,7 +69,7 @@ function Header() {
           </li>
           <li className="menu-item">
             <span onClick={handleExternalLink}>
-              English <img className='spanish' src='/img/banner/english.webp' />
+              English <img className='spanish' src='/img/banner/english.webp' alt='english' />
             </span>
           </li>
         </ul>
@@ -77,7 +77,7 @@ function Header() {
     
       <div className='container'>
         <div>
-          <img src='/img/banner/bars.svg' className='bars' alt='Barras decorativas'/>
+          <img src='/img/banner/bars.svg' className='bars' alt='Barras decorativas' />
           <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>
           <img src='img/banner/line.svg' className='line' alt='Líneas decorativas' />
         </div>

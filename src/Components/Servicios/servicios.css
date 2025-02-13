@@ -47,6 +47,7 @@
     text-align: center;
     margin: 2rem auto;
     width: 300px;
+    align-items: center;
 }
 
 .servicios .card .titulo{
