@@ -114,7 +114,7 @@ function Clientes() {
                          </div>
 
                          <div>
-                        <img src="/img/Clientes/Fletpack.webp" alt="Fletpack" className='imagenes'/>
+                        <img src="/img/Clientes/FletPack.webp" alt="Fletpack" className='imagenes'/>
                          </div>
                          
                          <div>
