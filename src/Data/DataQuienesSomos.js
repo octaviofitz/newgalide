@@ -14,16 +14,17 @@ const QuienesSomosData = [
     img: '/img/QuienesSomos/Octavio.webp',
     texto: 'Desarrollo web, inteligencia comercial y Boca Juniors ✋🏼😄🤚🏼'
     },
-    {id: 4,
-    nombre: 'Valentina',
-    img: '/img/QuienesSomos/Valentina.webp',
-    texto: 'Creación de contenido, CM, locutora en potencia y catlover 😻'
-                },
-   {id: 5,
+   {id: 4,
     nombre: 'Lo',
     img: '/img/QuienesSomos/Lo.webp',
     texto: 'Comunicación, diseño y fotografía en proceso 📷'
-                                }, 
+    }, 
+    {id: 5,
+    nombre: 'Francina',
+    img: '/img/QuienesSomos/Francina.webp',
+    texto: 'Creación de contenido, desarrollo web, multitarea. Videojuegos y rugby 🕹️🏉'
+    },
+
    {id: 6,
    nombre: 'Bere',
    img: '/img/QuienesSomos/Bere.webp',
