@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import ButtonHeader from '../Utilities/ButtonHeader/ButtonHeader'
 
 import './header.css'
 
@@ -79,6 +80,17 @@ function Header() {
         <div>
           <img src='/img/banner/bars.svg' className='bars' alt='Barras decorativas' />
           <h1 className='titulo'>DESBLOQUEÁ EL POTENCIAL DEL <b className='strong'>HIPERESPACIO DIGITAL</b></h1>
+        
+          <div className='buttonContainer'>
+                <a
+                href={"https://api.whatsapp.com/send?phone=+541143993437&text=Hola, quiero desbloquear el potencial del hiperespacio digital con Galidé."}
+                target='_blank'
+                rel="noreferrer noopener"
+              >
+          <button className='boton'>AHORA</button>
+              </a>
+                 </div> 
+        
           <img src='img/banner/line.svg' className='line' alt='Líneas decorativas' />
         </div>
         <div>

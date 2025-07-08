@@ -4,13 +4,18 @@
 }
 
 #clientes .clientesDesktop{
-  display: none;
+  display: inline;
 }
 
+/* #clientes .clientesDesktop{
+  display: none;
+}
+ */
 #clientes .clientesMobile .titulo{
     text-align: center;
     font-weight: 600;
     color: var(--blue);
+    margin-bottom: -1rem;
 }
 
 #clientes .clientesMobile .titulo .strong{
@@ -20,7 +25,31 @@
     padding: 0em 0.3em;
 }
 
-#clientes .clientesMobilecontainer {
+#clientes .clientesDesktop .titulo{
+  text-align: center;
+  font-weight: 600;
+  display: none;
+ }
+
+ #clientes .clientesDesktop .container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+ #clientes .clientesDesktop .container .imagenes{
+  width: 42vw;
+  margin: 0.85rem 0;
+  padding: 0 1rem;
+ }
+
+ #clientes .carousel-container{
+  display: none;
+ }
+ 
+
+/* #clientes .clientesMobilecontainer {
     width: 100%;
     margin: auto;   
   }
@@ -31,20 +60,24 @@
     padding-top: 0rem;
     margin: 2rem auto 0.25rem;
   }
+ */
+
 
   @media (min-width: 768px){
 
-    #clientes .clientesMobile{
-      display: none;
+    #clientes .clientesMobile .titulo{
+      font-size: 1.6rem;
+      margin-bottom: -1rem;
   }
   
- #clientes .clientesDesktop{
+/*  #clientes .clientesDesktop{
     display: inline;
- }
+ } */
 
  #clientes .clientesDesktop .titulo{
   text-align: center;
   font-weight: 600;
+  display: none;
  }
 
  #clientes .clientesDesktop .titulo .strong{
@@ -52,6 +85,8 @@
   color: var(--blue);
   padding-left: 0.5rem;
   font-style: italic;
+  display: flex;
+  margin: auto;
  }
 
  #clientes .clientesDesktop .container{
@@ -60,11 +95,12 @@
   justify-content: center;
  }
 
+
  #clientes .clientesDesktop .container .imagenes{
-  width: 33vw;
-  margin: 2rem 0;
+  width: 30vw;
+  margin: 0.85rem 0;
+  padding: 0 1rem;
  }
- 
   }
 
   @media (min-width: 1024px){ 
@@ -75,6 +111,11 @@
       margin-left: 0;
       color: var(--blue);
     }    
+
+    #clientes .clientesMobile .titulo{
+      font-size: 2.75rem;
+  }
+  
 
     
 #clientes .clientesDesktop .titulo .strong{
@@ -93,7 +134,14 @@
  }
 
     #clientes .clientesDesktop .container .imagenes{
-      width: 13vw;
+      width: 20vw;
+      margin: 3rem 0rem;
+     }
+  }
+
+  @media (min-width: 1440px){
+    #clientes .clientesDesktop .container .imagenes{
+      width: 17vw;
       margin: 3rem 0rem;
      }
   }
