@@ -107,10 +107,14 @@
     margin-bottom: 1rem;
 }
 
+.swiper-button-next, .swiper-button-prev{
+    display: none;
+}
+
 /* TABLET */
 @media (min-width: 768px) {
     .quienes {
-        padding: 3rem 0rem;
+        padding: 3rem 0rem 7rem;
     }
 
     .quienes .titulo {
@@ -127,6 +131,7 @@
 @media (min-width: 1024px) {
     .quienes {
         padding-bottom: 8rem;
+        padding: 3rem 0rem 0rem;
     }
 
     .quienes .titulo {

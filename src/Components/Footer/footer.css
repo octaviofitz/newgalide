@@ -1,23 +1,76 @@
 .footer {
+    position: relative;
     text-align: center;
-    padding: 2rem;
-    background-image: radial-gradient(#8CCDDB, #5A66A3)!important;
+    padding: 2rem 1rem 3rem;
+    background-image: radial-gradient(#8ccddb, #5a66a3) !important;
     font-size: 2rem;
-}
-
-.footer .titulo{
+  }
+  
+  .footer .titulo {
     font-size: 1.5rem;
     color: #fff;
-    margin-top: 1.2rem;
-}
-
-.footer .titulo .brand{
-    font-family: 'made bold';
+    margin-top: 3rem;
+  }
+  
+  .footer .titulo .brand {
+    font-family: 'made bold', sans-serif;
     font-weight: 900;
-}
-
-.footer .texto{
+  }
+  
+  .footer .texto {
     color: #fff;
     font-size: 12px;
     margin-top: 1.2rem;
-}
+  }
+  
+  .rocket-btn {
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: 0;
+  }
+  
+  .emoji-rocket {
+    font-size: 30px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-top: 4.5rem;
+  }
+  
+  .rocket-btn:hover .emoji-rocket {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+  
+  @keyframes liftoff {
+    0% {
+      transform: translateY(0) rotate(-45deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) rotate(-45deg);
+      opacity: 0;
+    }
+  }
+  
+  .launch .emoji-rocket {
+    animation: liftoff 1s ease forwards;
+  }
+  
+  .emoji-container {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  
+  .emoji-arrow {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-top: 4.5rem;
+  }
+  

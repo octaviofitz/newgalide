@@ -105,7 +105,8 @@
 }
 
 .servicios .Container-card .card .img{
-    width: 15vw;
+    width: 100;
+    border-radius: 0;
 }
 
 .servicios .titulo{
@@ -179,5 +180,5 @@
         font-style: normal;
     }
 
-
 }
+

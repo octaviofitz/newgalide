@@ -71,7 +71,7 @@
   z-index: 2;
   border: 1px solid #fff;
   box-shadow: 0 0 10px #004678;
-  transition: transform 0.75s ease-in;
+  transition: transform 0.33s ease-in;
   overflow: hidden;
 }
 
@@ -123,12 +123,11 @@
   border: 0px solid rgb(153, 135, 135);
   position: relative;
   z-index: 10;
-  opacity: 0.1;
 }
 
-.header .boton:hover{
+/* .header .boton:hover{
   opacity: 1;
-} 
+}  */
 
 @keyframes a-bars {
   0% {
@@ -324,7 +323,6 @@
 
   .header .boton {
     width: 10vw;
-    opacity: 1;
     margin-top: -4vh;
     margin-left: 28vw;
   }
@@ -334,4 +332,19 @@
   .header .boton {
     z-index: 1; /* Para que el menú quede por encima del botón en mobile */
   }
+}
+
+
+@keyframes latido {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.boton-latido {
+  animation: latido 2.5s infinite;
+  transition: transform 0.3s ease-in-out;
 }

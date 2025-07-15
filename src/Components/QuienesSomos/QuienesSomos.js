@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -19,17 +19,24 @@ function QuienesSomos() {
             {/* Carrusel (mobile y tablet) */}
             <div className='quienes-carrusel'>
                 <Swiper
-                    modules={[Pagination, Navigation]}
+                    modules={[Pagination, Navigation, Autoplay]}
                     spaceBetween={30}
                     slidesPerView={1}
                     pagination={{ clickable: true }}
                     navigation
+                    speed={1000}
+                    autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
                     className='swiper-container'
                 >
                     {QuienesSomosData.map((dato) => (
                         <SwiperSlide key={dato.id}>
                             <div className='card'>
-                                <img src={dato.img} className='img' alt='Nosotros' loading='lazy' />
+                                <img
+                                    src={dato.img}
+                                    className='img'
+                                    alt='Nosotros'
+                                    loading='lazy'
+                                />
                                 <h4 className='nombre'>{dato.nombre}</h4>
                                 <p className='texto'>{dato.texto}</p>
                             </div>
@@ -42,7 +49,12 @@ function QuienesSomos() {
             <div className='quienes-grid'>
                 {QuienesSomosData.map((dato) => (
                     <div className='card' key={dato.id}>
-                        <img src={dato.img} className='img' alt='Nosotros' loading='lazy' />
+                        <img
+                            src={dato.img}
+                            className='img'
+                            alt='Nosotros'
+                            loading='lazy'
+                        />
                         <h4 className='nombre'>{dato.nombre}</h4>
                         <p className='texto'>{dato.texto}</p>
                     </div>
